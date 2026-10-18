@@ -1,0 +1,4 @@
+interface:
+  display_name: "冷科长式 B-roll 精剪"
+  short_description: "按台词匹配真实素材、图解和大画中画，保留原声与字幕并导出成片"
+  default_prompt: "用 $lengke-broll 按冷科长式方法精剪这段视频，加入真实 B-roll、图解、关键词和清楚的人物画中画，检查后直接交付 MP4。"

@@ -1,0 +1,24 @@
+{
+  "input": "source/clean.mp4",
+  "matte": "assets/person-alpha.mkv",
+  "font": "assets/NotoSansSC-VF.ttf",
+  "output": "renders/behind-person-titles-v1.mp4",
+  "canvas": [1920, 1080],
+  "background": {"gains": [0.67, 0.71, 0.79], "offsets": [0, 4, 12]},
+  "presenter_ranges": [{"start": 0.0, "end": 4.0}],
+  "titles": [
+    {"text": "业务", "spoken_anchor": "当前讲到的业务问题", "start": 0.2, "end": 2.0, "x": 42, "y": 180, "size": 400, "weight": 900, "tracking": -8},
+    {"text": "难题", "spoken_anchor": "当前讲到的业务问题", "start": 0.8, "end": 2.0, "x": 1130, "y": 210, "size": 350, "weight": 900, "tracking": -8},
+    {"text": "AI", "spoken_anchor": "转入 AI 方案", "start": 2.0, "end": 4.0, "x": 180, "y": 170, "size": 570, "weight": 900, "tracking": -8},
+    {"text": "方案", "spoken_anchor": "转入 AI 方案", "start": 2.0, "end": 4.0, "x": 1130, "y": 210, "size": 350, "weight": 900, "tracking": -8}
+  ],
+  "subtitle_style": {
+    "size": 52, "weight": 500, "tracking": 4, "height": 88,
+    "padding": 34, "margin": 60, "y": 952, "blur": 4,
+    "background": [13, 16, 22, 150], "color": [249, 249, 247, 255]
+  },
+  "captions": [
+    {"start": 0.1, "end": 1.9, "text": "先说清楚业务里的具体难题"},
+    {"start": 2.0, "end": 3.95, "text": "再展示对应的AI方案"}
+  ]
+}

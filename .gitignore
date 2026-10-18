@@ -1,0 +1,40 @@
+# Python and local runtimes
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+node_modules/
+
+# Local settings and credentials
+.env
+.env.*
+!.env.example
+credentials.json
+*.pem
+*.key
+
+# Per-video outputs, models and caches
+renders/
+verify/
+cache/
+.cache/
+tmp/
+models/
+*.mp4
+*.mov
+*.mkv
+*.webm
+*.wav
+*.mp3
+*.flac
+*.onnx
+*.safetensors
+*.pt
+*.pth
+*.log
+
+# OS metadata
+.DS_Store
+Thumbs.db
+desktop.ini

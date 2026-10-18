@@ -1,0 +1,24 @@
+{
+  "schema_version": 1,
+  "repository": "Leon-Drq/AI-VIDEO-CUT",
+  "visibility": "private",
+  "scope": "personal-video-editing-skills",
+  "skills": [
+    {
+      "name": "lengke-broll",
+      "display_name": "冷科长式 B-roll 精剪",
+      "path": "skills/lengke-broll",
+      "entrypoint": "skills/lengke-broll/SKILL.md",
+      "description": "按台词加入真实资料、录屏、图解、关键词和真人画中画，保留原声及所需字幕。",
+      "invoke": "$lengke-broll"
+    },
+    {
+      "name": "behind-person-titles",
+      "display_name": "人物背后大字精剪",
+      "path": "skills/behind-person-titles",
+      "entrypoint": "skills/behind-person-titles/SKILL.md",
+      "description": "以连续人物抠像实现人后巨字，配合连贯剪口、语义画面与半透明圆角字幕。",
+      "invoke": "$behind-person-titles"
+    }
+  ]
+}

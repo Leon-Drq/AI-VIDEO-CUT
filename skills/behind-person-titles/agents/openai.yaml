@@ -1,0 +1,4 @@
+interface:
+  display_name: "人物背后大字精剪"
+  short_description: "复用背景巨字、真人遮挡和圆角字幕，让口播连贯、画面与语义同步"
+  default_prompt: "用 $behind-person-titles 按上次的背景大字方式精剪这条口播，保留真人和原声，直接交付正式 MP4。"
