@@ -6,7 +6,7 @@
 
 | 技能 | 用途 | 入口 |
 | --- | --- | --- |
-| `lengke-broll` | 冷科长式语义 B-roll 精剪：前3秒强化、画面无网址、真实案例细节、暖白/深色构图与分层实物动效，保留真人原声与字幕 | [SKILL.md](skills/lengke-broll/SKILL.md) |
+| `lengke-broll` | 冷科长式语义 B-roll 精剪：前3秒强化、无底框粗白大字与人物自然遮挡、画面无网址、真实案例细节及暖白/深色分层动效，保留真人原声与字幕 | [SKILL.md](skills/lengke-broll/SKILL.md) |
 | `behind-person-titles` | 人物背后大字精剪：连续抠像、原始人物遮挡粗白巨字、轻量圆角字幕与连贯口播 | [SKILL.md](skills/behind-person-titles/SKILL.md) |
 
 机器可读索引见 [catalog.json](catalog.json)。
@@ -28,6 +28,8 @@
 `lengke-broll` 的[真实素材与分层动效指南](skills/lengke-broll/references/image-led-motion.md)说明如何用头像替代冗余姓名大字、用照片表达单人到群体，以及在金融语境中制作纸币展开与飘落。保留必要数字、单位和字幕，并检查运动全程的遮挡；具体素材与动画按台词选择。
 
 升级后的默认制作与验收见[前3秒与素材精修](skills/lengke-broll/references/hook-and-polish.md)：首帧建立对象、前三秒形成看点与正文衔接；从来源角标、地址栏、截图/录屏到收尾清除可见网址，完整出处保存在项目文件；以暖白和深色组织素材展示，放大真实案例细节，检查叠层、阴影和图文避让。真人背景补光与素材展示底色分开处理。
+
+真人主标题默认采用**白色粗重无衬线大字＋人物自然遮挡**，去掉黑框、圆角底板与标题横条。通过连续人物遮罩将原始人物放回文字前方，检查头发、帽沿、手势边缘与遮挡后的可读性；详细排字、分层和验收见[视觉规范](skills/lengke-broll/references/visual-system.md)。这一默认用于需要标题的真人镜头，素材展示与对白字幕保留各自的排版。
 
 `behind-person-titles` 包含 `matte` 和 `render` 两个可运行命令。模型、字体、FFmpeg 与运行环境由实际项目提供，具体条件见 [渲染说明](skills/behind-person-titles/references/renderer.md)。技能中列出的本地案例路径用于原机器定位，不是其他机器运行的必需文件。
 

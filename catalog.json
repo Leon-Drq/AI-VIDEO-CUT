@@ -9,7 +9,7 @@
       "display_name": "冷科长式 B-roll 精剪",
       "path": "skills/lengke-broll",
       "entrypoint": "skills/lengke-broll/SKILL.md",
-      "description": "强化前3秒，清除画面网址，以真实案例细节、暖白与深色构图及分层实物动效解释台词，保留真人、原声与字幕。",
+      "description": "强化前3秒，真人主标题采用无底框粗白无衬线大字与自然人物遮挡，清除画面网址，以真实案例细节及明暗分层动效解释台词，保留真人、原声与字幕。",
       "invoke": "$lengke-broll"
     },
     {
