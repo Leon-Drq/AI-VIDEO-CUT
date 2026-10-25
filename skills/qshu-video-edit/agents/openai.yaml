@@ -1,0 +1,4 @@
+interface:
+  display_name: "Q叔口播视频剪辑"
+  short_description: "强化开头与真实案例，完整大画面、姜黄高亮、粗白大字及自然人物遮挡"
+  default_prompt: "用 $qshu-video-edit 精剪这段口播，强化前3秒并露出本人，真实案例完整放大，采用无底框粗白大字与人物自然遮挡、姜黄色高亮和自然清晰背景，保留已确认语速与原声，检查后交付正式 MP4。"
