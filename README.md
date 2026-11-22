@@ -6,7 +6,7 @@
 
 | 技能 | 用途 | 入口 |
 | --- | --- | --- |
-| **DrqCut** · `$drqcut` | 从口播原片到正式 MP4 和字幕。开头按重点词起音推近真人，真实案例、文稿和图表从全貌推进到关键细节，配纯黑底、暖白粗字和姜黄高亮 | [SKILL.md](skills/drqcut/SKILL.md) |
+| **DrqCut** · `$drqcut` | 从口播原片到正式 MP4 和字幕。重点词起音时推近真人，纸张与照片随台词分次入场，文稿和图表从全貌推进到细节，配纯黑底、暖白粗字和姜黄高亮 | [SKILL.md](skills/drqcut/SKILL.md) |
 | `qshu-video-edit` · Q叔口播视频剪辑 | 基于已确认的冷科长式方法：前3秒案例与真人同屏、无底框粗白大字和人物遮挡、大幅完整案例、姜黄色高亮、自然背景，保留原声与已确认速度 | [SKILL.md](skills/qshu-video-edit/SKILL.md) |
 | `lengke-broll` | 冷科长式语义 B-roll 精剪：拆解参考，按口播推进对象、证据和关系；强化前3秒、真实案例及分层动效，保留已确认风格、真人原声与字幕 | [SKILL.md](skills/lengke-broll/SKILL.md) |
 | `behind-person-titles` | 人物背后大字精剪：连续抠像、原始人物遮挡粗白巨字、轻量圆角字幕与连贯口播 | [SKILL.md](skills/behind-person-titles/SKILL.md) |
