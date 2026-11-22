@@ -9,7 +9,7 @@
       "display_name": "DrqCut",
       "path": "skills/drqcut",
       "entrypoint": "skills/drqcut/SKILL.md",
-      "description": "从对白精剪到正式 MP4 的中文口播剪辑。用真实案例、整页到局部的证据动效、黑底白字和姜黄字幕讲清重点，支持按截图局部修订与同帧验收。",
+      "description": "从对白精剪到正式 MP4 的中文口播剪辑。开头按重点词起音推近真人，配合真实案例、整页到局部的证据动效、黑底白字与姜黄字幕，支持按截图局部修订与同帧验收。",
       "invoke": "$drqcut"
     },
     {
