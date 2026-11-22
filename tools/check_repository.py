@@ -1,4 +1,5 @@
 """Check the portable skill archive, using only the Python standard library."""
+import argparse
 import ast
 import json
 from pathlib import Path
@@ -12,10 +13,18 @@ ROOT = Path(__file__).resolve().parents[1]
 
 
 def main():
+    parser = argparse.ArgumentParser(description=__doc__)
+    parser.add_argument('--visibility', choices=('private', 'public'),
+                        help='Visibility observed on GitHub for the release check')
+    args = parser.parse_args()
     errors = []
     catalog = json.loads((ROOT / 'catalog.json').read_text(encoding='utf-8-sig'))
-    if catalog.get('repository') != 'Leon-Drq/AI-VIDEO-CUT' or catalog.get('visibility') != 'private':
-        errors.append('catalog must identify the private Leon-Drq/AI-VIDEO-CUT repository')
+    if catalog.get('repository') != 'Leon-Drq/AI-VIDEO-CUT':
+        errors.append('catalog must identify the Leon-Drq/AI-VIDEO-CUT repository')
+    if catalog.get('visibility') not in ('private', 'public'):
+        errors.append('catalog must declare repository visibility')
+    elif args.visibility and catalog['visibility'] != args.visibility:
+        errors.append('catalog visibility differs from the visibility observed on GitHub')
     rows = catalog.get('skills', [])
     if not rows:
         errors.append('catalog.skills must not be empty')

@@ -1,0 +1,4 @@
+interface:
+  display_name: "DrqCut"
+  short_description: "中文口播精剪：真人与真实案例同屏、证据局部动效、姜黄字幕与成片复核"
+  default_prompt: "用 $drqcut 精剪这条口播，按对白放大真实案例与关键细节，导出正式 MP4 和字幕。"
