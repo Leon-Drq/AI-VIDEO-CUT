@@ -1,0 +1,57 @@
+{
+  "version": 1,
+  "name": "SoloLoopCut",
+  "canvas": {
+    "width": 1080,
+    "height": 1440,
+    "fps": 30
+  },
+  "palette": {
+    "white": "#FFFFFF",
+    "orange": "#F59A31",
+    "panel": [
+      35,
+      39,
+      42,
+      176
+    ]
+  },
+  "fonts": {
+    "sans": "NotoSansSC-VF.ttf",
+    "serif": "NotoSerifSC-VF.ttf",
+    "headline_weight": 900,
+    "identity_weight": 500,
+    "caption_weight": 600
+  },
+  "caption": {
+    "size": 58,
+    "min_size": 48,
+    "y": 1058,
+    "max_width": 944,
+    "line_gap": 14
+  },
+  "nav": {
+    "height": 57,
+    "progress_height": 4,
+    "active_size": 27,
+    "idle_size": 25
+  },
+  "logo": {
+    "file": "SoloLoop-logo-original.png",
+    "width": 250,
+    "right": 40,
+    "top": 77
+  },
+  "output": {
+    "crf": 16,
+    "preset": "slow",
+    "target_lufs": -15,
+    "true_peak": -1.5
+  },
+  "defaults": {
+    "target_duration": 45,
+    "playback_rate": 1,
+    "music_bpm": 96,
+    "music_gain": 0.24
+  }
+}

@@ -1,0 +1,6 @@
+{
+  "logo": "Original user-provided RGBA SoloLoop brand file. Keep brand lettering and colours; replace for other brands.",
+  "music": "Original procedural instrumental. Reproduce with scripts/score.py, fixed seed 20261117, 96 BPM. No commercial reference soundtrack is bundled.",
+  "archive": "Recovered public archive from the confirmed conversational specification and renderer; verified in the current environment. Not claimed byte-identical to the unmounted Windows installation.",
+  "excluded": "Raw footage, guest portrait examples, exported videos, recorded audio, model weights, caches and credentials."
+}

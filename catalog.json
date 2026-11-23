@@ -5,6 +5,14 @@
   "scope": "personal-video-editing-skills",
   "skills": [
     {
+      "name": "sololoopcut",
+      "display_name": "SoloLoopCut",
+      "path": "skills/sololoopcut",
+      "entrypoint": "skills/sololoopcut/SKILL.md",
+      "description": "活动、社群交流与访谈精剪。橙白大字、衬线身份字、章节进度、右上原版Logo、现场原声、原创96BPM配乐、HDR调色和单次视频有损输出。",
+      "invoke": "$sololoopcut"
+    },
+    {
       "name": "drqcut",
       "display_name": "DrqCut",
       "path": "skills/drqcut",

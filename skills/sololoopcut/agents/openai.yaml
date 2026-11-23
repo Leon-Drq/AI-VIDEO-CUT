@@ -1,0 +1,4 @@
+interface:
+  display_name: "SoloLoopCut"
+  short_description: "把活动与访谈素材剪成有节奏、有大字、有品牌标识的精简成片"
+  default_prompt: "使用 $sololoopcut 将我提供的素材直接精剪成 SoloLoop 风格成片，自动完成选段、字幕、配乐、调色、Logo 和质检。"

@@ -6,6 +6,7 @@
 
 | 技能 | 用途 | 入口 |
 | --- | --- | --- |
+| **SoloLoopCut** · `$sololoopcut` | 活动、社群与访谈精剪：橙白大字、衬线身份字、章节进度、原版 Logo、现场原声与原创配乐，含 HDR 转色与单次视频有损输出 | [SKILL.md](skills/sololoopcut/SKILL.md) |
 | **DrqCut** · `$drqcut` | 从口播原片到正式 MP4 和字幕。重点词起音时推近真人，纸张与照片随台词分次入场，文稿和图表从全貌推进到细节，配纯黑底、暖白粗字和姜黄高亮 | [SKILL.md](skills/drqcut/SKILL.md) |
 | `qshu-video-edit` · Q叔口播视频剪辑 | 基于已确认的冷科长式方法：前3秒案例与真人同屏、无底框粗白大字和人物遮挡、大幅完整案例、姜黄色高亮、自然背景，保留原声与已确认速度 | [SKILL.md](skills/qshu-video-edit/SKILL.md) |
 | `lengke-broll` | 冷科长式语义 B-roll 精剪：拆解参考，按口播推进对象、证据和关系；强化前3秒、真实案例及分层动效，保留已确认风格、真人原声与字幕 | [SKILL.md](skills/lengke-broll/SKILL.md) |
@@ -44,6 +45,19 @@ Q叔版的重点是[完整取景与大画面](skills/qshu-video-edit/references/
 真人主标题默认采用**白色粗重无衬线大字＋人物自然遮挡**，去掉黑框、圆角底板与标题横条。通过连续人物遮罩将原始人物放回文字前方，检查头发、帽沿、手势边缘与遮挡后的可读性；详细排字、分层和验收见[视觉规范](skills/lengke-broll/references/visual-system.md)。这一默认用于需要标题的真人镜头，素材展示与对白字幕保留各自的排版。
 
 `behind-person-titles` 包含 `matte` 和 `render` 两个可运行命令。模型、字体、FFmpeg 与运行环境由实际项目提供，具体条件见 [渲染说明](skills/behind-person-titles/references/renderer.md)。技能中列出的本地案例路径用于原机器定位，不是其他机器运行的必需文件。
+
+
+## SoloLoopCut
+
+把活动或访谈素材直接剪成精简正式 MP4。默认 3:4、1080×1440、30fps、原速、约45秒；保留真实观点和限定词，自动完成选段、字幕、大字、章节、Logo、配乐、调色和质检。
+
+```text
+用 $sololoopcut 剪辑这批活动素材，按 SoloLoop 的风格，直接出精简成片。
+```
+
+[完整规范](skills/sololoopcut/SKILL.md) · [工程字段](skills/sololoopcut/references/project-format.md)。附可运行的准备、转写、验证、渲染、QA及原创96BPM配乐生成脚本。依赖Python、FFmpeg、中文字体和基础科学计算库；转写需自行提供本地模型。
+
+本公开归档版根据已确认的对话规范和渲染流程恢复，并在当前Linux环境验证；当前环境未挂载原Windows技能目录，因此不声称与该目录逐字节一致。保留原版品牌图和配乐生成器，不附每期原片、成片、嘉宾肖像示例或录音。原始品牌图用于SoloLoop品牌排版，其他品牌请提供自己的标识。
 
 ## 后续维护
 
