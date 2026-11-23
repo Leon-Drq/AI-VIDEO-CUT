@@ -7,7 +7,7 @@
 | 技能 | 用途 | 入口 |
 | --- | --- | --- |
 | **SoloLoopCut** · `$sololoopcut` | 活动、社群与访谈精剪：橙白大字、衬线身份字、章节进度、原版 Logo、现场原声与原创配乐，含 HDR 转色与单次视频有损输出 | [SKILL.md](skills/sololoopcut/SKILL.md) |
-| **DrqCut** · `$drqcut` | 从口播原片到正式 MP4 和字幕。人物背后白色巨字、精简小字、重点词推近与概念动画；纸张照片分次入场，真实证据从全貌到细节，配纯黑底和姜黄高亮 | [SKILL.md](skills/drqcut/SKILL.md) |
+| **DrqCut** · `$drqcut` | 从口播原片到正式 MP4 和字幕。人后白色巨字、重点词推近、概念动画、纯黑底与姜黄高亮。文件从全貌推到细节，转述发言时按人名依次引入[肖像与原帖](skills/drqcut/references/evidence-motion.md#发言人的肖像与原帖) | [SKILL.md](skills/drqcut/SKILL.md) |
 | `qshu-video-edit` · Q叔口播视频剪辑 | 基于已确认的冷科长式方法：前3秒案例与真人同屏、无底框粗白大字和人物遮挡、大幅完整案例、姜黄色高亮、自然背景，保留原声与已确认速度 | [SKILL.md](skills/qshu-video-edit/SKILL.md) |
 | `lengke-broll` | 冷科长式语义 B-roll 精剪：拆解参考，按口播推进对象、证据和关系；强化前3秒、真实案例及分层动效，保留已确认风格、真人原声与字幕 | [SKILL.md](skills/lengke-broll/SKILL.md) |
 | `behind-person-titles` | 人物背后大字精剪：连续抠像、原始人物遮挡粗白巨字、轻量圆角字幕与连贯口播 | [SKILL.md](skills/behind-person-titles/SKILL.md) |
