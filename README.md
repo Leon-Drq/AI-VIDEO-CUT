@@ -7,12 +7,14 @@
 | 技能 | 用途 | 入口 |
 | --- | --- | --- |
 | **SoloLoopCut** · `$sololoopcut` | 活动、社群与访谈精剪：橙白大字、衬线身份字、章节进度、原版 Logo、现场原声与原创配乐，含 HDR 转色与单次视频有损输出 | [SKILL.md](skills/sololoopcut/SKILL.md) |
-| **DrqCut** · `$drqcut` | 从口播原片到正式 MP4 和字幕。重点词起音时推近真人，纸张与照片随台词分次入场，文稿和图表从全貌推进到细节，配纯黑底、暖白粗字和姜黄高亮 | [SKILL.md](skills/drqcut/SKILL.md) |
+| **DrqCut** · `$drqcut` | 从口播原片到正式 MP4 和字幕。人物背后白色巨字、精简小字、重点词推近与概念动画；纸张照片分次入场，真实证据从全貌到细节，配纯黑底和姜黄高亮 | [SKILL.md](skills/drqcut/SKILL.md) |
 | `qshu-video-edit` · Q叔口播视频剪辑 | 基于已确认的冷科长式方法：前3秒案例与真人同屏、无底框粗白大字和人物遮挡、大幅完整案例、姜黄色高亮、自然背景，保留原声与已确认速度 | [SKILL.md](skills/qshu-video-edit/SKILL.md) |
 | `lengke-broll` | 冷科长式语义 B-roll 精剪：拆解参考，按口播推进对象、证据和关系；强化前3秒、真实案例及分层动效，保留已确认风格、真人原声与字幕 | [SKILL.md](skills/lengke-broll/SKILL.md) |
 | `behind-person-titles` | 人物背后大字精剪：连续抠像、原始人物遮挡粗白巨字、轻量圆角字幕与连贯口播 | [SKILL.md](skills/behind-person-titles/SKILL.md) |
 
 机器可读索引见 [catalog.json](catalog.json)。
+
+DrqCut 的[人后大字与信息减法](skills/drqcut/references/presenter-typography.md)规定真人标题默认提炼为背景关键词，通过同帧连续遮罩让头发、手势自然挡住文字，并清理重复副标签。[概念动画](skills/drqcut/references/evidence-motion.md#概念动画按词落点)用可识别对象的状态变化解释台词，例如工牌退场与失业状态翻面；动作按重点词落定，完整口播字幕保持清楚。
 
 ## 使用
 
