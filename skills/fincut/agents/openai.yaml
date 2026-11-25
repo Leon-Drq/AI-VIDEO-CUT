@@ -1,0 +1,4 @@
+interface:
+  display_name: "fincut"
+  short_description: "财经竖屏口播精剪，搭配真实素材、文书特写、同步人像与金色大数字"
+  default_prompt: "用 $fincut 把这段口播剪成财经竖屏成片，按口播找实拍和原始资料，完成字幕、混音和导出。"

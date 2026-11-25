@@ -5,6 +5,14 @@
   "scope": "personal-video-editing-skills",
   "skills": [
     {
+      "name": "fincut",
+      "display_name": "fincut",
+      "path": "skills/fincut",
+      "entrypoint": "skills/fincut/SKILL.md",
+      "description": "财经竖屏口播精剪。按台词匹配实拍与原始文书，以同步圆形人像、金橙无描边大数字、原声和动作音效完成 MP4，可按要求做五轮对照。",
+      "invoke": "$fincut"
+    },
+    {
       "name": "sololoopcut",
       "display_name": "SoloLoopCut",
       "path": "skills/sololoopcut",
