@@ -5,6 +5,14 @@
   "scope": "personal-video-editing-skills",
   "skills": [
     {
+      "name": "weizicut",
+      "display_name": "weizicut · 薇子姐口播精剪",
+      "path": "skills/weizicut",
+      "entrypoint": "skills/weizicut/SKILL.md",
+      "description": "为单人口播逐句配真实证据，制作人物贴纸、同步圆窗、深色流动背景和材质音效，完成本地转写、抠像、成片渲染与三轮对照。",
+      "invoke": "$weizicut"
+    },
+    {
       "name": "fincut",
       "display_name": "fincut",
       "path": "skills/fincut",

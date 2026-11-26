@@ -1,0 +1,4 @@
+interface:
+  display_name: "weizicut · 薇子姐口播精剪"
+  short_description: "按口播逐句配真实证据，用流动深色背景、人物贴纸和材质音效输出竖屏成片"
+  default_prompt: "用 $weizicut 精剪这条口播，沿用薇子姐成片效果，直接交付 MP4 和字幕。"

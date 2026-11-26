@@ -6,6 +6,7 @@
 
 | 技能 | 用途 | 入口 |
 | --- | --- | --- |
+| **weizicut** · `$weizicut` | 薇子姐式单人口播。逐句配真实证据，真人贴纸、同步圆窗、暗色流动网格与材质音效。包含本地转写、抠像、精剪、渲染与成片检查工具 | [SKILL.md](skills/weizicut/SKILL.md) |
 | **fincut** · `$fincut` | 中文财经竖屏口播精剪。按台词选实拍和原始披露，文件特写配同步圆形人像，日期与金额用金橙色无描边大字 | [SKILL.md](skills/fincut/SKILL.md) |
 | **SoloLoopCut** · `$sololoopcut` | 活动、社群与访谈精剪：橙白大字、衬线身份字、章节进度、原版 Logo、现场原声与原创配乐，含 HDR 转色与单次视频有损输出 | [SKILL.md](skills/sololoopcut/SKILL.md) |
 | **DrqCut** · `$drqcut` | 从口播原片到正式 MP4 和字幕。人后白色巨字、重点词推近、概念动画、纯黑底与姜黄高亮。文件从全貌推到细节，转述发言时按人名依次引入[肖像与原帖](skills/drqcut/references/evidence-motion.md#发言人的肖像与原帖) | [SKILL.md](skills/drqcut/SKILL.md) |
@@ -74,4 +75,4 @@ python tools/check_repository.py
 
 技能更新后还需做对应的实际行为检查，并同步本机安装版本。仓库检查仅验证目录、索引、引用和代码语法，不替代成片视觉与听感检查。
 
-本仓库当前公开，DrqCut 已获授权在此发布。每期原片、录音、成片、模型权重、运行缓存和凭据留在项目或环境中。原点社区、原点学堂、原点夜校相关技能继续归档到其独立的社区技能仓库。
+本仓库当前公开，DrqCut 和 weizicut 的通用技能文件已获授权在此发布。每期原片、录音、成片、模型权重、运行缓存和凭据留在项目或环境中。原点社区、原点学堂、原点夜校相关技能继续归档到其独立的社区技能仓库。

@@ -1,0 +1,141 @@
+{
+  "presenter": "cut/presenter.mp4",
+  "matte": "host.mkv",
+  "font": "fonts/ChineseSansBold.ttf",
+  "face_roi": [
+    0.16,
+    0.18,
+    0.84,
+    0.56
+  ],
+  "scenes": [
+    {
+      "start": 0,
+      "end": 3.8,
+      "host": "sticker",
+      "title": [
+        "技术怎样",
+        "走出实验室？"
+      ],
+      "roi": [
+        0,
+        0.2,
+        1,
+        1
+      ],
+      "box": [
+        380,
+        665,
+        700,
+        1255
+      ],
+      "moves": [
+        [
+          1.45,
+          [
+            380,
+            665,
+            700,
+            1255
+          ]
+        ],
+        [
+          1.8,
+          [
+            550,
+            930,
+            515,
+            990
+          ]
+        ]
+      ]
+    },
+    {
+      "start": 3.8,
+      "end": 6,
+      "host": "pip",
+      "title": [
+        "现场演示"
+      ]
+    }
+  ],
+  "materials": [
+    {
+      "start": 0,
+      "end": 1.7,
+      "kind": "paper",
+      "file": "materials/report-title.png",
+      "box": [
+        60,
+        600,
+        745,
+        715
+      ],
+      "credit": "原始技术报告",
+      "credit_xy": [
+        56,
+        505
+      ]
+    },
+    {
+      "start": 1.7,
+      "end": 3.8,
+      "kind": "screen",
+      "file": "materials/product.png",
+      "box": [
+        55,
+        612,
+        970,
+        580
+      ]
+    },
+    {
+      "start": 3.8,
+      "end": 6,
+      "kind": "screen",
+      "video": true,
+      "file": "materials/demo.mp4",
+      "offset": 1.2,
+      "box": [
+        48,
+        540,
+        984,
+        865
+      ]
+    }
+  ],
+  "captions": [
+    {
+      "start": 0,
+      "end": 1.55,
+      "text": "先看这份技术报告",
+      "highlight": "技术报告"
+    },
+    {
+      "start": 1.7,
+      "end": 3.7,
+      "text": "产品又是什么样？",
+      "highlight": "产品"
+    },
+    {
+      "start": 3.8,
+      "end": 6,
+      "text": "这是它在现场运行的样子",
+      "highlight": "现场运行"
+    }
+  ],
+  "sounds": [
+    {
+      "at": 0,
+      "file": "sounds/page.wav",
+      "duration": 0.4,
+      "gain_db": -12
+    },
+    {
+      "at": 1.7,
+      "file": "sounds/sweep.wav",
+      "duration": 0.3,
+      "gain_db": -16
+    }
+  ]
+}
