@@ -1,4 +1,4 @@
 interface:
   display_name: "DrqCut"
-  short_description: "中文口播精剪：人物背后大字、语义动画、真实证据、姜黄字幕与成片复核"
-  default_prompt: "用 $drqcut 精剪这条口播，真人标题放到人物身后，精简重复小字，按对白安排真实素材与必要的概念动画，导出正式 MP4 和字幕。"
+  short_description: "中文口播精剪，按动作词配实拍、展示原始证据、修剪气口并复核成片"
+  default_prompt: "用 $drqcut 精剪这条口播，按动作词配动态素材，保留同步真人圆窗和人后大字，剪顺气口，导出正式 MP4 和同步字幕。"
