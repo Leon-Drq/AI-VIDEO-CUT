@@ -33,7 +33,7 @@
       "display_name": "DrqCut",
       "path": "skills/drqcut",
       "entrypoint": "skills/drqcut/SKILL.md",
-      "description": "从中文口播到正式 MP4 和字幕。按动作词配实拍或操作录屏，用同步真人圆窗承接全屏素材，按原声修剪并列短语的气口。保留人后大字、重点词推近、语义动画、肖像与原帖、黑底和姜黄字幕。",
+      "description": "从中文口播到正式 MP4 和字幕。按信息变化安排 B-roll 密度，检查素材覆盖时长与空档，按动作词配实拍或录屏。保留同步圆窗、人后大字、肖像与原帖、姜黄字幕，并按原声修剪并列短语的气口。",
       "invoke": "$drqcut"
     },
     {

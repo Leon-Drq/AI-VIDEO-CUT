@@ -9,7 +9,7 @@
 | **weizicut** · `$weizicut` | 薇子姐式单人口播。逐句配真实证据，真人贴纸、同步圆窗、暗色流动网格与材质音效。包含本地转写、抠像、精剪、渲染与成片检查工具 | [SKILL.md](skills/weizicut/SKILL.md) |
 | **fincut** · `$fincut` | 中文财经竖屏口播精剪。按台词选实拍和原始披露，文件特写配同步圆形人像，日期与金额用金橙色无描边大字 | [SKILL.md](skills/fincut/SKILL.md) |
 | **SoloLoopCut** · `$sololoopcut` | 活动、社群与访谈精剪：橙白大字、衬线身份字、章节进度、原版 Logo、现场原声与原创配乐，含 HDR 转色与单次视频有损输出 | [SKILL.md](skills/sololoopcut/SKILL.md) |
-| **DrqCut** · `$drqcut` | 从口播原片到正式 MP4 和字幕。按动作词配实拍或录屏，精修并列短语气口，保留同步真人圆窗、人后大字与姜黄高亮。转述发言时依次引入[肖像与原帖](skills/drqcut/references/evidence-motion.md#发言人的肖像与原帖) | [SKILL.md](skills/drqcut/SKILL.md) |
+| **DrqCut** · `$drqcut` | 从口播原片到正式 MP4 和字幕。按台词安排[B-roll 密度](skills/drqcut/references/evidence-motion.md#b-roll-与素材密度)，检查覆盖时长与空档。按动作词配实拍或录屏，精修气口，保留同步圆窗、人后大字、姜黄高亮及[肖像与原帖](skills/drqcut/references/evidence-motion.md#发言人的肖像与原帖) | [SKILL.md](skills/drqcut/SKILL.md) |
 | `qshu-video-edit` · Q叔口播视频剪辑 | 基于已确认的冷科长式方法：前3秒案例与真人同屏、无底框粗白大字和人物遮挡、大幅完整案例、姜黄色高亮、自然背景，保留原声与已确认速度 | [SKILL.md](skills/qshu-video-edit/SKILL.md) |
 | `lengke-broll` | 冷科长式语义 B-roll 精剪：拆解参考，按口播推进对象、证据和关系；强化前3秒、真实案例及分层动效，保留已确认风格、真人原声与字幕 | [SKILL.md](skills/lengke-broll/SKILL.md) |
 | `behind-person-titles` | 人物背后大字精剪：连续抠像、原始人物遮挡粗白巨字、轻量圆角字幕与连贯口播 | [SKILL.md](skills/behind-person-titles/SKILL.md) |

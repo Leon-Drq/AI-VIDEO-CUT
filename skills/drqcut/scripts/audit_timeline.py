@@ -10,6 +10,30 @@ def numeric(v):
     return isinstance(v, (int, float)) and not isinstance(v, bool) and math.isfinite(v)
 
 
+def coverage_report(duration, spans):
+    """Measure the union of the planned inserts, including intentional overlaps only once."""
+    cursor = 0.0
+    covered = 0.0
+    gaps = []
+    for start, end, *_ in sorted(spans, key=lambda span: span[0]):
+        start = min(start, duration)
+        if start > cursor:
+            gaps.append((cursor, start))
+        stop = min(end, duration)
+        covered += max(0.0, stop - max(start, cursor))
+        cursor = max(cursor, stop)
+    if cursor < duration:
+        gaps.append((cursor, duration))
+    return {
+        'covered_seconds': round(covered, 3),
+        'covered_percent': round(100 * (covered / duration), 1),
+        'uncovered_ranges': [
+            {'start': round(a, 3), 'end': round(b, 3), 'seconds': round(b - a, 3)}
+            for a, b in gaps
+        ],
+    }
+
+
 def audit(data):
     errors, warnings = [], []
     if not isinstance(data, dict):
@@ -81,7 +105,10 @@ def audit(data):
             if not reason and not prev[3]:
                 errors.append(f'{prev[2]} / {label}: overlapping shots need overlap_reason')
         active.append((start, end, label, reason))
-    return {'verdict': 'FAIL' if errors else 'PASS_WITH_WARNINGS' if warnings else 'PASS', 'items': len(items), 'errors': errors, 'warnings': warnings}
+    result = {'verdict': 'FAIL' if errors else 'PASS_WITH_WARNINGS' if warnings else 'PASS', 'items': len(items), 'errors': errors, 'warnings': warnings}
+    if not errors:
+        result['coverage'] = coverage_report(duration, spans)
+    return result
 
 
 def main():
