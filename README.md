@@ -16,7 +16,7 @@
 
 机器可读索引见 [catalog.json](catalog.json)。
 
-DrqCut 的[人后大字与信息减法](skills/drqcut/references/presenter-typography.md)规定真人标题默认提炼为背景关键词，通过同帧连续遮罩让头发、手势自然挡住文字，并清理重复副标签。[概念动画](skills/drqcut/references/evidence-motion.md#概念动画按词落点)用可识别对象的状态变化解释台词，例如工牌退场与失业状态翻面；动作按重点词落定，完整口播字幕保持清楚。
+DrqCut 的[真人背景标题](skills/drqcut/references/presenter-typography.md#背景大字从上落入)用特粗白字，按可见笔画居中，从上沿落定在人物身后。[全屏动态配画](skills/drqcut/references/evidence-motion.md#全屏配画与关键词打字)让实物和动作铺满画面，型号与关键数字随口播打出，清理重复小字。[概念动画](skills/drqcut/references/evidence-motion.md#概念动画按词落点)用可识别对象的状态变化解释台词。
 
 ## 使用
 
